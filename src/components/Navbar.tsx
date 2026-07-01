@@ -29,7 +29,7 @@ export default function Navbar() {
           <img
             src={theme === 'dark' ? logoDark : logoLight}
             alt="TokenPrism"
-            className="h-7 w-auto rounded-xl ring-1 ring-brand-teal/30 shadow-[0_0_12px_rgba(18,210,174,0.25)]"
+            className="h-7 w-auto rounded-lg ring-1 ring-brand-teal/30 shadow-[0_0_12px_rgba(18,210,174,0.25)]"
           />
           <span className="text-lg font-bold text-[#1d1d1f] dark:text-[#e8e8ed] tracking-tight group-hover:text-brand-teal dark:group-hover:text-brand-teal-bright transition-colors">TokenPrism</span>
         </a>
