@@ -2,7 +2,7 @@ import { type ReactNode } from 'react'
 import { type LucideIcon } from 'lucide-react'
 import { useI18n } from '../i18n/I18nContext'
 
-type FeatureKey = 'monitor' | 'alerts' | 'menubar' | 'privacy'
+type FeatureKey = 'agent' | 'alerts' | 'menubar' | 'privacy'
 
 export default function FeatureSection({ id, icon: Icon, mockup, reverse }: {
   id: FeatureKey

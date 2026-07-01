@@ -5,7 +5,7 @@ import HeroSection from './components/HeroSection'
 import FeatureSection from './components/FeatureSection'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
-import { BarChart3, Bell, Monitor, Shield } from 'lucide-react'
+import { Activity, Bell, Monitor, Shield } from 'lucide-react'
 import AppMockup from './components/AppMockup'
 
 export default function App() {
@@ -24,9 +24,9 @@ function AppContent() {
       <Navbar />
       <HeroSection />
       <FeatureSection
-        id="monitor"
-        icon={BarChart3}
-        mockup={<AppMockup variant="monitor" />}
+        id="agent"
+        icon={Activity}
+        mockup={<AppMockup variant="agent" />}
         reverse={false}
       />
       <FeatureSection

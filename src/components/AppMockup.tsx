@@ -1,6 +1,6 @@
 import { useI18n } from '../i18n/I18nContext'
 
-type MockupVariant = 'monitor' | 'alerts' | 'menubar' | 'privacy'
+type MockupVariant = 'agent' | 'alerts' | 'menubar' | 'privacy'
 
 export default function AppMockup({ variant }: { variant: MockupVariant }) {
   const { t } = useI18n()
@@ -19,7 +19,7 @@ export default function AppMockup({ variant }: { variant: MockupVariant }) {
 
       {/* Content per variant */}
       <div className="p-5">
-        {variant === 'monitor' && <MonitorMockup t={t} />}
+        {variant === 'agent' && <AgentMockup t={t} />}
         {variant === 'alerts' && <AlertsMockup t={t} />}
         {variant === 'menubar' && <MenubarMockup t={t} />}
         {variant === 'privacy' && <PrivacyMockup t={t} />}
@@ -28,43 +28,58 @@ export default function AppMockup({ variant }: { variant: MockupVariant }) {
   )
 }
 
-function MonitorMockup({ t }: { t: ReturnType<typeof useI18n>['t'] }) {
+function AgentMockup({ t }: { t: ReturnType<typeof useI18n>['t'] }) {
   return (
     <div className="space-y-3">
-      {/* Daily chart bars */}
-      <div className="flex items-end gap-2 justify-center h-24">
-        {[85, 62, 78, 45, 90, 55, 70].map((h, i) => (
-          <div key={i} className="flex flex-col items-center gap-1">
-            <div
-              className="w-5 rounded-t-md transition-all"
-              style={{
-                height: `${h}%`,
-                background: h >= 60
-                  ? 'linear-gradient(to top, #12D2AE, #2EEFD3)'
-                  : h >= 30
-                    ? '#FEA053'
-                    : '#FF607E',
-              }}
-            />
-            <span className="text-[8px] font-bold text-[#aeaeb2] dark:text-[#5a5a6e]">
-              {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'][i]}
-            </span>
+      {/* Agent status tiles */}
+      <div className="flex gap-2 justify-center">
+        {/* Working tile */}
+        <div className="flex-1 rounded-xl border border-[#e5e5ea] dark:border-[#2a2d3a] bg-white dark:bg-[#1a1d28] p-3 text-center">
+          <div className="flex items-center justify-center gap-1.5 mb-1.5">
+            <div className="w-2 h-2 rounded-full bg-brand-blue shadow-[0_0_6px_rgba(40,125,255,0.5)]" />
+            <span className="text-[9px] font-bold text-[#1d1d1f] dark:text-[#e8e8ed]">{t.mockup.working}</span>
           </div>
-        ))}
+          <div className="flex items-center gap-1 px-2 py-1 rounded-full bg-brand-blue/10 border border-brand-blue/20 justify-center">
+            <span className="text-[11px] font-bold text-brand-blue">{t.mockup.codex}</span>
+          </div>
+          <div className="text-[8px] text-[#aeaeb2] dark:text-[#5a5a6e] mt-1">main.py</div>
+        </div>
+        {/* Waiting tile */}
+        <div className="flex-1 rounded-xl border border-[#e5e5ea] dark:border-[#2a2d3a] bg-white dark:bg-[#1a1d28] p-3 text-center">
+          <div className="flex items-center justify-center gap-1.5 mb-1.5">
+            <div className="w-2 h-2 rounded-full bg-brand-amber shadow-[0_0_6px_rgba(254,160,83,0.5)]" />
+            <span className="text-[9px] font-bold text-[#1d1d1f] dark:text-[#e8e8ed]">{t.mockup.waiting}</span>
+          </div>
+          <div className="flex items-center gap-1 px-2 py-1 rounded-full bg-brand-amber/10 border border-brand-amber/20 justify-center">
+            <span className="text-[11px] font-bold text-brand-amber">{t.mockup.claude}</span>
+          </div>
+          <div className="text-[8px] text-[#aeaeb2] dark:text-[#5a5a6e] mt-1">idle</div>
+        </div>
+        {/* Done tile */}
+        <div className="flex-1 rounded-xl border border-[#e5e5ea] dark:border-[#2a2d3a] bg-white dark:bg-[#1a1d28] p-3 text-center">
+          <div className="flex items-center justify-center gap-1.5 mb-1.5">
+            <div className="w-2 h-2 rounded-full bg-green-400 shadow-[0_0_6px_rgba(32,209,125,0.5)]" />
+            <span className="text-[9px] font-bold text-[#1d1d1f] dark:text-[#e8e8ed]">{t.mockup.done}</span>
+          </div>
+          <div className="flex items-center gap-1 px-2 py-1 rounded-full bg-green-400/10 border border-green-400/20 justify-center">
+            <span className="text-[11px] font-bold text-green-400">{t.mockup.codex}</span>
+          </div>
+          <div className="text-[8px] text-[#aeaeb2] dark:text-[#5a5a6e] mt-1">2m ago</div>
+        </div>
       </div>
-      {/* Legend */}
+      {/* Status legend */}
       <div className="flex items-center justify-center gap-4 text-[9px] font-semibold text-[#aeaeb2] dark:text-[#5a5a6e]">
         <div className="flex items-center gap-1">
-          <div className="w-2 h-2 rounded-full bg-brand-teal" />
-          {t.mockup.health}
+          <div className="w-2 h-2 rounded-full bg-brand-blue" />
+          {t.mockup.working}
         </div>
         <div className="flex items-center gap-1">
           <div className="w-2 h-2 rounded-full bg-brand-amber" />
-          {t.mockup.medium}
+          {t.mockup.waiting}
         </div>
         <div className="flex items-center gap-1">
-          <div className="w-2 h-2 rounded-full bg-brand-red" />
-          {t.mockup.low}
+          <div className="w-2 h-2 rounded-full bg-green-400" />
+          {t.mockup.done}
         </div>
       </div>
     </div>
