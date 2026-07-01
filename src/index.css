@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ── Light mode ── */
+.light body { background: #f8f9fb; color: #1d1d1f; }
+.light .bg-surface { background: #f8f9fb; }
+.light .bg-card { background: #ffffff; }
+.light .border-subtle { border-color: #e5e5ea; }
+.light .text-primary { color: #1d1d1f; }
+.light .text-secondary { color: #6e6e73; }
+.light .text-tertiary { color: #aeaeb2; }
+
+/* ── Dark mode ── */
+.dark body { background: #0a0d14; color: #e8e8ed; }
+.dark .bg-surface { background: #0a0d14; }
+.dark .bg-card { background: #13161f; }
+.dark .border-subtle { border-color: #1e2230; }
+.dark .text-primary { color: #e8e8ed; }
+.dark .text-secondary { color: #8e8e9a; }
+.dark .text-tertiary { color: #5a5a6e; }
+
+/* Grid pattern — teal tint for TokenPrism */
+.dark body::after {
+  content: ''; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgba(18,210,174,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18,210,174,0.02) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 0%, black 25%, transparent 65%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+.light ::-webkit-scrollbar-thumb { background: #d5d5dd; border-radius: 3px; }
+.light ::-webkit-scrollbar-thumb:hover { background: #aeaeb2; }
+.dark ::-webkit-scrollbar-thumb { background: #3a3d4a; border-radius: 3px; }
+.dark ::-webkit-scrollbar-thumb:hover { background: #555; }
+
+/* Accent line utility — teal gradient */
+.accent-line {
+  width: 40px; height: 3px; border-radius: 2px;
+  background: linear-gradient(90deg, #12D2AE, #2EEFD3);
+  box-shadow: 0 0 12px rgba(18,210,174,0.4);
+}
+.dark .accent-line { box-shadow: 0 0 16px rgba(46,239,211,0.5); }
+
+/* Glow rings */
+.glow-ring {
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(18,210,174,0.1) 0%, transparent 70%);
+}
