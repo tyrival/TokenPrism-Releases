@@ -4,7 +4,14 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.14</title><sparkle:version>24</sparkle:version><sparkle:shortVersionString>1.9.14</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>log</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.14/TokenPrism.dmg" sparkle:version="24" sparkle:shortVersionString="1.9.14" length="4660530" type="application/octet-stream" sparkle:edSignature="7+ijlfzKmrYCBIW8516po97lZF1M7zvizU4jrf0kZfNwvXTdFU0Pl1WX/Z7vsxrGRciwdH4kbrtA2wxomr+EAw==" /></item><item><title>Version 1.9.13</title><sparkle:version>23</sparkle:version><sparkle:shortVersionString>1.9.13</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
+  <item><title>Version 1.9.15</title><sparkle:version>25</sparkle:version><sparkle:shortVersionString>1.9.15</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
+- No notable changes.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.15/TokenPrism.dmg" sparkle:version="25" sparkle:shortVersionString="1.9.15" length="4660512" type="application/octet-stream" sparkle:edSignature="KFBz39QyCeY7QadAMsmuEDgBtRZkFgvcQjKg5gUaH41DUney7kkJS7fYdCr+ym9mS5IzgT/noZ8G9f9z17uGCA==" /></item><item><title>Version 1.9.14</title><sparkle:version>24</sparkle:version><sparkle:shortVersionString>1.9.14</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>log</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.14/TokenPrism.dmg" sparkle:version="24" sparkle:shortVersionString="1.9.14" length="4660530" type="application/octet-stream" sparkle:edSignature="7+ijlfzKmrYCBIW8516po97lZF1M7zvizU4jrf0kZfNwvXTdFU0Pl1WX/Z7vsxrGRciwdH4kbrtA2wxomr+EAw==" /></item><item><title>Version 1.9.13</title><sparkle:version>23</sparkle:version><sparkle:shortVersionString>1.9.13</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
 - No notable changes.
 
 ## Improvements
