@@ -4,7 +4,14 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.15</title><sparkle:version>25</sparkle:version><sparkle:shortVersionString>1.9.15</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
+  <item><title>Version 1.9.16</title><sparkle:version>26</sparkle:version><sparkle:shortVersionString>1.9.16</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
+- No notable changes.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.16/TokenPrism.dmg" sparkle:version="26" sparkle:shortVersionString="1.9.16" length="4605800" type="application/octet-stream" sparkle:edSignature="v7Oprz5xfyTDFNaPD8tv6P/smmGNhji07WyLpD7AEKu7wCub6cuKqZdsSnuo1+D/5NMiCqTL+Qy4K+Z0uXJaBA==" /></item><item><title>Version 1.9.15</title><sparkle:version>25</sparkle:version><sparkle:shortVersionString>1.9.15</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
 - No notable changes.
 
 ## Improvements
