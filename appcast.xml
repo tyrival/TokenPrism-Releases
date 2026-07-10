@@ -4,7 +4,14 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.16</title><sparkle:version>26</sparkle:version><sparkle:shortVersionString>1.9.16</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
+  <item><title>Version 1.9.17</title><sparkle:version>27</sparkle:version><sparkle:shortVersionString>1.9.17</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
+- Background sync now automatically recovers if a refresh is interrupted.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.17/TokenPrism.dmg" sparkle:version="27" sparkle:shortVersionString="1.9.17" length="4614597" type="application/octet-stream" sparkle:edSignature="f71juB+Gd3ZgesM3cFZRdinWh9dd8PJNcHAo7RdaiuF/iTtwQJxF6GyCukF9ej0+7DLPLcmy7J4BIw+AxORrDg==" /></item><item><title>Version 1.9.16</title><sparkle:version>26</sparkle:version><sparkle:shortVersionString>1.9.16</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description>## What's New
 - No notable changes.
 
 ## Improvements
