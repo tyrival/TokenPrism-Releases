@@ -4,7 +4,14 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.18</title><sparkle:version>28</sparkle:version><sparkle:shortVersionString>1.9.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+  <item><title>Version 1.9.19</title><sparkle:version>29</sparkle:version><sparkle:shortVersionString>1.9.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+- The app now uses a dedicated data store for better performance and reliability.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- Fixed a crash that could occur on launch with certain data configurations.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.19/TokenPrism.dmg" sparkle:version="29" sparkle:shortVersionString="1.9.19" length="4618804" type="application/octet-stream" sparkle:edSignature="JVSBkbmdBOl6B9WreAjwxkvjGN1YHt/fCnSHjEkBf8wG0GsZHBFg23Rh6w7iwWM/7zCWeyIx1HNSFRDvmq4aAg==" /></item><item><title>Version 1.9.18</title><sparkle:version>28</sparkle:version><sparkle:shortVersionString>1.9.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
 - No notable changes.
 
 ## Improvements
