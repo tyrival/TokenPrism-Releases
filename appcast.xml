@@ -4,7 +4,15 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.20</title><sparkle:version>30</sparkle:version><sparkle:shortVersionString>1.9.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+  <item><title>Version 1.9.21</title><sparkle:version>31</sparkle:version><sparkle:shortVersionString>1.9.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+- No notable changes.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- Rounded edges on attention cards no longer get clipped.
+- Agent capsules now recover reliably after interruptions.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.21/TokenPrism.dmg" sparkle:version="31" sparkle:shortVersionString="1.9.21" length="4890623" type="application/octet-stream" sparkle:edSignature="D0UWBmeR5aL4m+A7Z0B/OmQ02L8O9NA1QanjdJ9ujnMWNJ51iWwklmmK8o9Rq1e9ix8WoB8fA7LIe8spfoogBg==" /></item><item><title>Version 1.9.20</title><sparkle:version>30</sparkle:version><sparkle:shortVersionString>1.9.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
 - Task navigation for Claude and terminal sessions
 - Agent attention cards that show activity in the panel
 
