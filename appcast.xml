@@ -4,7 +4,15 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.19</title><sparkle:version>29</sparkle:version><sparkle:shortVersionString>1.9.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+  <item><title>Version 1.9.20</title><sparkle:version>30</sparkle:version><sparkle:shortVersionString>1.9.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+- Task navigation for Claude and terminal sessions
+- Agent attention cards that show activity in the panel
+
+## Improvements
+- Reduced panel energy usage for better battery life
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.20/TokenPrism.dmg" sparkle:version="30" sparkle:shortVersionString="1.9.20" length="4868999" type="application/octet-stream" sparkle:edSignature="SjbNtRBxjWxR6Ud3w7KnnfLlI7V3H7U0Li+yhndu5TSccCmKi9ALg9tysknb6BHDXgg9TLDxuqa4abM6SA7cCQ==" /></item><item><title>Version 1.9.19</title><sparkle:version>29</sparkle:version><sparkle:shortVersionString>1.9.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
 - The app now uses a dedicated data store for better performance and reliability.
 
 ## Improvements
