@@ -4,7 +4,14 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.21</title><sparkle:version>31</sparkle:version><sparkle:shortVersionString>1.9.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+  <item><title>Version 1.9.22</title><sparkle:version>32</sparkle:version><sparkle:shortVersionString>1.9.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+- Project name now appears on attention cards.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.22/TokenPrism.dmg" sparkle:version="32" sparkle:shortVersionString="1.9.22" length="4890644" type="application/octet-stream" sparkle:edSignature="rBT5gRGKK8Ci/YdRoZsF3S8+Otz9QRnLdLczZLaXVhadEJ76jaTX6LeJTJ4j2zZTar3cAzdW5W2Jio2z1WihAQ==" /></item><item><title>Version 1.9.21</title><sparkle:version>31</sparkle:version><sparkle:shortVersionString>1.9.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
 - No notable changes.
 
 ## Improvements
