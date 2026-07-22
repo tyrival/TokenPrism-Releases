@@ -4,7 +4,20 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.22</title><sparkle:version>32</sparkle:version><sparkle:shortVersionString>1.9.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+  <item><title>Version 1.9.23</title><sparkle:version>33</sparkle:version><sparkle:shortVersionString>1.9.23</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">TokenPrismTrace 2026-07-22T06:17:02.258Z [main] App.init begin
+LLVM Profile Error: Failed to write file "default.profraw": Read-only file system
+TokenPrismTrace 2026-07-22T06:17:02.286Z [main] App.init begin
+LLVM Profile Error: Failed to write file "default.profraw": Read-only file system
+TokenPrismTrace 2026-07-22T06:17:09.449Z [main] App.init begin
+LLVM Profile Error: Failed to write file "default.profraw": Read-only file system
+## What's New
+- No notable changes.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.23/TokenPrism.dmg" sparkle:version="33" sparkle:shortVersionString="1.9.23" length="4867065" type="application/octet-stream" sparkle:edSignature="0cQ9HQg06893eJSTi25ssy8Iyn2krQxNp9Jqnharr5Bww9y3rPN+RsxYBgEomaBzlQT+fOcjnu9oAp0xtoLoBg==" /></item><item><title>Version 1.9.22</title><sparkle:version>32</sparkle:version><sparkle:shortVersionString>1.9.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
 - Project name now appears on attention cards.
 
 ## Improvements
