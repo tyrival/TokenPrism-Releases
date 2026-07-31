@@ -4,7 +4,15 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.9.23</title><sparkle:version>33</sparkle:version><sparkle:shortVersionString>1.9.23</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">TokenPrismTrace 2026-07-22T06:17:02.258Z [main] App.init begin
+  <item><title>Version 1.9.24</title><sparkle:version>34</sparkle:version><sparkle:shortVersionString>1.9.24</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+- No notable changes.
+
+## Improvements
+- Accent color is now unified across the app for a more consistent look.
+- The waiting-for-user state now uses a visually distinct color.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.9.24/TokenPrism.dmg" sparkle:version="34" sparkle:shortVersionString="1.9.24" length="4867455" type="application/octet-stream" sparkle:edSignature="NdgKvThHcJvWUFI6M36UYgdTop4KbKQ+gwa/hlMODodMXdKWKVaXXjigxDhbsAV8nIJNVy0UIodyMPT83QgEBw==" /></item><item><title>Version 1.9.23</title><sparkle:version>33</sparkle:version><sparkle:shortVersionString>1.9.23</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">TokenPrismTrace 2026-07-22T06:17:02.258Z [main] App.init begin
 LLVM Profile Error: Failed to write file "default.profraw": Read-only file system
 TokenPrismTrace 2026-07-22T06:17:02.286Z [main] App.init begin
 LLVM Profile Error: Failed to write file "default.profraw": Read-only file system
