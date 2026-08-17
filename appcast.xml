@@ -4,7 +4,14 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.10.0</title><sparkle:version>36</sparkle:version><sparkle:shortVersionString>1.10.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+  <item><title>Version 1.10.1</title><sparkle:version>37</sparkle:version><sparkle:shortVersionString>1.10.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+- Add a Codex cycle interface.
+
+## Improvements
+- Improve agent capsule reliability.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.10.1/TokenPrism.dmg" sparkle:version="37" sparkle:shortVersionString="1.10.1" length="4903236" type="application/octet-stream" sparkle:edSignature="JCHVQacnqIPdFsbM21VMAfLKaWQLIQjoN1TSw85p6LZ/cLt+f0H1vS6e8dQ1gj9SWbj955l0lg4c2pZHHDIsBw==" /></item><item><title>Version 1.10.0</title><sparkle:version>36</sparkle:version><sparkle:shortVersionString>1.10.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
 - Add a Codex cycle interface.
 
 ## Improvements
