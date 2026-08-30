@@ -4,7 +4,14 @@
     <title>TokenPrism</title>
     <description>TokenPrism release feed</description>
     <language>en</language>
-  <item><title>Version 1.11.0</title><sparkle:version>38</sparkle:version><sparkle:shortVersionString>1.11.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+  <item><title>Version 1.11.1</title><sparkle:version>39</sparkle:version><sparkle:shortVersionString>1.11.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
+- Added attention tracking for agent activity.
+
+## Improvements
+- No notable changes.
+
+## Fixes
+- No notable changes.</description><enclosure url="https://github.com/tyrival/TokenPrism-Releases/releases/download/v1.11.1/TokenPrism.dmg" sparkle:version="39" sparkle:shortVersionString="1.11.1" length="4905759" type="application/octet-stream" sparkle:edSignature="eHiiAGJZWBJvJMjajHOtsohtBlXgDNgltFLb3ir03c+ZIc9cBGQNpiPcK/ziKI+DGFlw4U5IEPDFv/ctoQ99DQ==" /></item><item><title>Version 1.11.0</title><sparkle:version>38</sparkle:version><sparkle:shortVersionString>1.11.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion><description sparkle:format="markdown">## What's New
 - No notable changes.
 
 ## Improvements
